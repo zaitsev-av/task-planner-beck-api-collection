@@ -1,0 +1,31 @@
+_id: req_6cb5d81042964dc5877527aa54776ded
+type: Request
+parentId: fld_07c804256baf4da28effeb081d459d03
+modified: 1709025480568
+created: 1709025284062
+url: "{{ _.baseUrl }}/api/auth/register"
+name: register
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"email":"asd@asd.com",
+    	"password": "qwer123"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication: {}
+metaSortKey: -1709025284062
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

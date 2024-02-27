@@ -1,0 +1,23 @@
+_id: req_970efc80cfba451785b96591eaa9fe79
+type: Request
+parentId: fld_07c804256baf4da28effeb081d459d03
+modified: 1709029116267
+created: 1709029066779
+url: "{{ _.baseUrl }}/api/auth/login/access-token"
+name: login/access-token
+description: ""
+method: POST
+body: {}
+parameters: []
+headers:
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication: {}
+metaSortKey: -1708991149318.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
