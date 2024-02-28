@@ -1,0 +1,32 @@
+_id: req_ee5bd654e46f4e8db6e398aef8485f66
+type: Request
+parentId: fld_7b7abf392edb4fa5b06c46488dc119b7
+modified: 1709117770575
+created: 1709117237289
+url: "{{ _.baseUrl }}/api/user/tasks/clt5odemw0000lp0iloog6va3"
+name: user/tasks/:id (update)
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"name": "zaitsev"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication:
+  type: bearer
+  token: "{{ _.TOKEN }}"
+metaSortKey: -1709068905900.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

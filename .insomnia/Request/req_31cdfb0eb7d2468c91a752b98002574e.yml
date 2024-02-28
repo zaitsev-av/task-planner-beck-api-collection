@@ -1,0 +1,25 @@
+_id: req_31cdfb0eb7d2468c91a752b98002574e
+type: Request
+parentId: fld_7b7abf392edb4fa5b06c46488dc119b7
+modified: 1709117286356
+created: 1709117237286
+url: "{{ _.baseUrl }}/api/user/tasks"
+name: user/profile
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication:
+  type: bearer
+  token: "{{ _.TOKEN }}"
+metaSortKey: -1709112527739
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

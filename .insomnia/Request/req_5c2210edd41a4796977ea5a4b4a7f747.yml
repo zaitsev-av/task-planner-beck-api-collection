@@ -1,0 +1,32 @@
+_id: req_5c2210edd41a4796977ea5a4b4a7f747
+type: Request
+parentId: fld_7b7abf392edb4fa5b06c46488dc119b7
+modified: 1709117859181
+created: 1709117323001
+url: "{{ _.baseUrl }}/api/user/tasks"
+name: user/tasks (create)
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"name": "Hello beck"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication:
+  type: bearer
+  token: "{{ _.TOKEN }}"
+metaSortKey: -1709090716819.75
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
