@@ -1,0 +1,25 @@
+_id: req_ee6713cf140643f796cd66409a636f7e
+type: Request
+parentId: fld_7a788f0652d346debb83cca03ecd5d14
+modified: 1709113128359
+created: 1709112785154
+url: "{{ _.baseUrl }}/api/statistic"
+name: statistic
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication:
+  type: bearer
+  token: "{{ _.TOKEN }}"
+metaSortKey: -1709112785254
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

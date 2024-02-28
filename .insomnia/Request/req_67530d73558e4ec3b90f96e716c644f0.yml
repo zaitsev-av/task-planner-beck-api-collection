@@ -1,0 +1,32 @@
+_id: req_67530d73558e4ec3b90f96e716c644f0
+type: Request
+parentId: fld_b1cb131d519b4895896bb109b013103e
+modified: 1709114123417
+created: 1709113162194
+url: "{{ _.baseUrl }}/api/user/profile"
+name: user/profile(update)
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"name": "qwer123"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication:
+  type: bearer
+  token: "{{ _.TOKEN }}"
+metaSortKey: -1709068905900.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
