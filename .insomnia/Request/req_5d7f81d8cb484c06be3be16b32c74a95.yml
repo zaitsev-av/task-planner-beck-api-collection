@@ -1,12 +1,12 @@
-_id: req_31cdfb0eb7d2468c91a752b98002574e
+_id: req_5d7f81d8cb484c06be3be16b32c74a95
 type: Request
 parentId: fld_7b7abf392edb4fa5b06c46488dc119b7
-modified: 1709118918734
-created: 1709117237286
-url: "{{ _.baseUrl }}/api/user/tasks"
-name: user/tasks
+modified: 1709118942451
+created: 1709118895995
+url: "{{ _.baseUrl }}/api/user/tasks/clt5odemw0000lp0iloog6va3"
+name: user/tasks/:id (delete)
 description: ""
-method: GET
+method: DELETE
 body: {}
 parameters: []
 headers:
@@ -15,7 +15,7 @@ headers:
 authentication:
   type: bearer
   token: "{{ _.TOKEN }}"
-metaSortKey: -1709112527739
+metaSortKey: -1709047094981.25
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true
