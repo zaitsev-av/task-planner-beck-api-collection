@@ -1,18 +1,18 @@
-_id: req_ca6050078ea64a5a8452d4fd44453017
+_id: req_31a2eaea7f924ef8a064788a5e266a78
 type: Request
-parentId: fld_07c804256baf4da28effeb081d459d03
-modified: 1709197505342
-created: 1708957019269
-url: "{{ _.baseUrl }}/api/auth/login"
-name: login
+parentId: fld_ced21b64dab3464e8459bd4385c59c50
+modified: 1709198122475
+created: 1709197415199
+url: "{{ _.baseUrl }}/api/user/time-blocks"
+name: user/time-blocks (create)
 description: ""
 method: POST
 body:
   mimeType: application/json
   text: |-
     {
-    	"email":"qwer123@asd.com",
-    	"password": "qwer123"
+    	"name": "Thre",
+    	"duration": 3
     }
 parameters: []
 headers:
@@ -20,8 +20,10 @@ headers:
     value: application/json
   - name: User-Agent
     value: insomnia/2023.5.8
-authentication: {}
-metaSortKey: -1708957014575
+authentication:
+  type: bearer
+  token: "{{ _.TOKEN }}"
+metaSortKey: -1709090716819.75
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

@@ -1,0 +1,25 @@
+_id: req_3fea7770e95e4e65991520836e39c0c7
+type: Request
+parentId: fld_ced21b64dab3464e8459bd4385c59c50
+modified: 1709199045555
+created: 1709197958242
+url: "{{ _.baseUrl }}/api/user/time-blocks/clt708upl0000sqpqcb6eikqm"
+name: user/time-blocks/:id (delete)
+description: ""
+method: DELETE
+body: {}
+parameters: []
+headers:
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication:
+  type: bearer
+  token: "{{ _.TOKEN }}"
+metaSortKey: -1709036189521.625
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

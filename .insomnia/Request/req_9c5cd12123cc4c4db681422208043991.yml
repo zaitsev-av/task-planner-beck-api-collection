@@ -1,0 +1,25 @@
+_id: req_9c5cd12123cc4c4db681422208043991
+type: Request
+parentId: fld_ced21b64dab3464e8459bd4385c59c50
+modified: 1709197533122
+created: 1709197415194
+url: "{{ _.baseUrl }}/api/user/time-blocks"
+name: user/time-blocks
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication:
+  type: bearer
+  token: "{{ _.TOKEN }}"
+metaSortKey: -1709112527739
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

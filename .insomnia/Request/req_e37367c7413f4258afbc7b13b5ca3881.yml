@@ -1,0 +1,32 @@
+_id: req_e37367c7413f4258afbc7b13b5ca3881
+type: Request
+parentId: fld_ced21b64dab3464e8459bd4385c59c50
+modified: 1709198413143
+created: 1709198055096
+url: "{{ _.baseUrl }}/api/user/time-blocks/update-order"
+name: user/time-blocks/update-order
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: >-
+    {
+    	"ids": ["clt70fbsd0002sqpqt1svun8k", "clt708upl0000sqpqcb6eikqm", "clt70fgd30003sqpq20mwfnil"]
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication:
+  type: bearer
+  token: "{{ _.TOKEN }}"
+metaSortKey: -1709052547711.0625
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
