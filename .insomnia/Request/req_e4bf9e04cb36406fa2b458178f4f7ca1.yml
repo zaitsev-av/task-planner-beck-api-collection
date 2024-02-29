@@ -1,0 +1,32 @@
+_id: req_e4bf9e04cb36406fa2b458178f4f7ca1
+type: Request
+parentId: fld_4ea3cdd012c547228d726bebed9ca563
+modified: 1709204214544
+created: 1709202791755
+url: "{{ _.baseUrl }}/api/user/timer/round/clt73msbz000411mzqrtyh8yo"
+name: user/timer/round/:id (update)
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"totalSeconds": 600
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication:
+  type: bearer
+  token: "{{ _.TOKEN }}"
+metaSortKey: -1709068905900.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

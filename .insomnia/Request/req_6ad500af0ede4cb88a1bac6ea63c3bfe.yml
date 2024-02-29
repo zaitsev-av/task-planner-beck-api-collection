@@ -1,0 +1,25 @@
+_id: req_6ad500af0ede4cb88a1bac6ea63c3bfe
+type: Request
+parentId: fld_4ea3cdd012c547228d726bebed9ca563
+modified: 1709203009631
+created: 1709202791753
+url: "{{ _.baseUrl }}/api/user/timer/today"
+name: user/timer
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication:
+  type: bearer
+  token: "{{ _.TOKEN }}"
+metaSortKey: -1709112527739
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

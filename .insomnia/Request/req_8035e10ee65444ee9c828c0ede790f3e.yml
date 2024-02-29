@@ -1,0 +1,32 @@
+_id: req_8035e10ee65444ee9c828c0ede790f3e
+type: Request
+parentId: fld_4ea3cdd012c547228d726bebed9ca563
+modified: 1709204130652
+created: 1709203382601
+url: "{{ _.baseUrl }}/api/user/timer/clt73msbz000011mzz4ow0d7m"
+name: user/timer/:sessionId
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"isCompleted": false
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication:
+  type: bearer
+  token: "{{ _.TOKEN }}"
+metaSortKey: -1709058000440.875
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

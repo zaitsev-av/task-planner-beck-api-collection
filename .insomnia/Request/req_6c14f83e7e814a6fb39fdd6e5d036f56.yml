@@ -1,0 +1,25 @@
+_id: req_6c14f83e7e814a6fb39fdd6e5d036f56
+type: Request
+parentId: fld_4ea3cdd012c547228d726bebed9ca563
+modified: 1709203545539
+created: 1709202791756
+url: "{{ _.baseUrl }}/api/user/timer"
+name: user/timer (create)
+description: ""
+method: POST
+body: {}
+parameters: []
+headers:
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication:
+  type: bearer
+  token: "{{ _.TOKEN }}"
+metaSortKey: -1709052547711.0625
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

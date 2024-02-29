@@ -1,0 +1,25 @@
+_id: req_b9d70ffbff5241af8a80475fcf91861f
+type: Request
+parentId: fld_4ea3cdd012c547228d726bebed9ca563
+modified: 1709204249738
+created: 1709202791758
+url: "{{ _.baseUrl }}/api/user/timer/clt73msbz000011mzz4ow0d7m"
+name: user/timer/:id (delete)
+description: ""
+method: DELETE
+body: {}
+parameters: []
+headers:
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication:
+  type: bearer
+  token: "{{ _.TOKEN }}"
+metaSortKey: -1709047094981.25
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
